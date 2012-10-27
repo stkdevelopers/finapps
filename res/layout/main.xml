@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/abs__ab_stacked_transparent_light_holo" >
+
+
+        <ImageButton
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/btn_trans_orange"
+            android:src="@drawable/ic_menu_moreoverflow_normal_holo_light"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/easy_tranfer_black" />
+
+    </RelativeLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#D0D0D0"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+<TextView
+    android:id="@+id/titleText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/slidebackground"
+    android:gravity="center"
+    android:padding="20dp"
+    android:text="Bienvenido"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="#E0E0E0"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/tpvtext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="5dp"
+    android:text="TPV-NFC"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textStyle="bold" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1" >
+
+        <EditText
+            android:id="@+id/valueText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="right|center_vertical"
+            android:hint="00.00"
+            android:inputType="numberDecimal"
+            android:textSize="80dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="€"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+<ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="wrap_content"
+    android:layout_height="150dp"
+    android:layout_gravity="center"
+    android:layout_marginBottom="15dp"
+    android:src="@drawable/moviles" />
+
+<Button
+    android:id="@+id/compraButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/btn_green"
+    android:paddingLeft="10dp"
+    android:text="Realizar pago"
+    android:textColor="#000"
+    android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>
